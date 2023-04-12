@@ -1,0 +1,101 @@
+/*Formatação CSS da página web, através dos seus elementos, classes e ids.*/
+
+#titulo {
+    font-size: 30px;    
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.subtitulo {
+    font-size: 30px;    
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: overline;
+}
+
+/*Box 1.*/
+.secao-01 {
+    border: 3px solid;
+    border-color: orange;
+    border-radius: 25px;
+    padding: 2%;
+    width: 525px;
+    margin: 0;
+    margin: 3% auto 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 4%;
+    font-size: 30px;
+    font-style: italic;
+    color: orangered;
+    text-transform: capitalize;
+}
+
+.imagem {
+    width: 100%;    
+}
+
+.paragrafo-01 {
+    font-size: 17px;
+    text-align: justify;
+}
+
+/*Box 2.*/
+.secao-02 {
+    border: 3px solid;
+    border-color: orange;
+    border-radius: 25px;
+    padding: 2%;
+    width: 525px;
+    margin: 0;
+    margin: 3% auto 3%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.linque-01, .paragrafo-02 {
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Último box.*/
+.contato {
+    list-style-type: none;
+    color: white;
+    text-align: center;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 25px;
+    padding: 2%;
+    width: 525px;
+    margin: 0;
+    margin: 3% auto 0;
+    box-sizing: border-box;
+}
+
+.linque-02 {
+    color: white;
+}
+
+.rodape {
+    margin: 0;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 25px;
+}
+
+body {
+    background-color: orangered;
+    margin: 0;
+}
